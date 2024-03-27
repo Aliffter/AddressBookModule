@@ -1,7 +1,7 @@
 {
   "name": "AddressBookModule",
-  "version": "0.1.0",
-  "summary": "A short description of AddressBookModule.",
+  "version": "1.0.1",
+  "summary": "模拟通讯录模块",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Aliffter/AddressBookModule",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Aliffter/AddressBookModule.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "10.0"

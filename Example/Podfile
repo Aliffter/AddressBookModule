@@ -1,10 +1,13 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/Aliffter/LXPodSpec.git'
 
 platform :ios, '10.0'
 
 target 'AddressBookModule_Example' do
   pod 'AddressBookModule', :path => '../'
-
+  pod 'MGJRouter',:git => 'https://github.com/Aliffter/MGJRouter.git'
+  
   target 'AddressBookModule_Tests' do
     inherit! :search_paths
 

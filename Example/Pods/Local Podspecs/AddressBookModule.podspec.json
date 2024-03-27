@@ -1,0 +1,27 @@
+{
+  "name": "AddressBookModule",
+  "version": "0.1.0",
+  "summary": "A short description of AddressBookModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Aliffter/AddressBookModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Aliffter": "zhaolongxiao1991@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Aliffter/AddressBookModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AddressBookModule/Classes/**/*",
+  "dependencies": {
+    "MGJRouter": [
+
+    ]
+  }
+}

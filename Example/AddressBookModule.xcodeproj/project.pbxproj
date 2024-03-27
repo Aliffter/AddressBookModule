@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3019C8A52BB40839003144EA /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3019C8A42BB40839003144EA /* AddressBookViewController.m */; };
+		3019C8A82BB40853003144EA /* AddressBookModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3019C8A72BB40853003144EA /* AddressBookModule.m */; };
+		3019C8AB2BB40883003144EA /* AddressDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3019C8AA2BB40883003144EA /* AddressDetailViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +43,12 @@
 		1A20CBC3298C0755763401C2 /* Pods_AddressBookModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressBookModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDC3FE006E361AB86A9DE04 /* Pods-AddressBookModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBookModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-AddressBookModule_Example/Pods-AddressBookModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		27F6662608FAF07141AFE994 /* Pods_AddressBookModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressBookModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3019C8A32BB40839003144EA /* AddressBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
+		3019C8A42BB40839003144EA /* AddressBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
+		3019C8A62BB40853003144EA /* AddressBookModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookModule.h; sourceTree = "<group>"; };
+		3019C8A72BB40853003144EA /* AddressBookModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookModule.m; sourceTree = "<group>"; };
+		3019C8A92BB40883003144EA /* AddressDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressDetailViewController.h; sourceTree = "<group>"; };
+		3019C8AA2BB40883003144EA /* AddressDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressDetailViewController.m; sourceTree = "<group>"; };
 		353CC1AFA31293D740900BA1 /* Pods-AddressBookModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBookModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-AddressBookModule_Tests/Pods-AddressBookModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		59BC04685D8C18BB98F8EBDA /* Pods-AddressBookModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBookModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AddressBookModule_Tests/Pods-AddressBookModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AddressBookModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBookModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,12 +70,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E553DC63D0CDC8A0E1EDC10 /* AddressBookModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AddressBookModule.podspec; path = ../AddressBookModule.podspec; sourceTree = "<group>"; };
+		6E553DC63D0CDC8A0E1EDC10 /* AddressBookModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AddressBookModule.podspec; path = ../AddressBookModule.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BAA23B7F4977E5387E0839 /* Pods-AddressBookModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBookModule_Example.release.xcconfig"; path = "Target Support Files/Pods-AddressBookModule_Example/Pods-AddressBookModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E47890528DF2367476C0189 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D966F88E79A6057668DE83CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8E47890528DF2367476C0189 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D966F88E79A6057668DE83CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +104,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3019C89A2BB407FC003144EA /* AddressBookModule */ = {
+			isa = PBXGroup;
+			children = (
+				3019C89B2BB407FC003144EA /* Classes */,
+				3019C89E2BB407FC003144EA /* Assets */,
+			);
+			name = AddressBookModule;
+			path = ../../AddressBookModule;
+			sourceTree = "<group>";
+		};
+		3019C89B2BB407FC003144EA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3019C8A62BB40853003144EA /* AddressBookModule.h */,
+				3019C8A72BB40853003144EA /* AddressBookModule.m */,
+				3019C8A32BB40839003144EA /* AddressBookViewController.h */,
+				3019C8A42BB40839003144EA /* AddressBookViewController.m */,
+				3019C8A92BB40883003144EA /* AddressDetailViewController.h */,
+				3019C8AA2BB40883003144EA /* AddressDetailViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3019C89E2BB407FC003144EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +171,7 @@
 		6003F593195388D20070C39A /* Example for AddressBookModule */ = {
 			isa = PBXGroup;
 			children = (
+				3019C89A2BB407FC003144EA /* AddressBookModule */,
 				6003F59C195388D20070C39A /* LXAppDelegate.h */,
 				6003F59D195388D20070C39A /* LXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +233,6 @@
 				59BC04685D8C18BB98F8EBDA /* Pods-AddressBookModule_Tests.debug.xcconfig */,
 				353CC1AFA31293D740900BA1 /* Pods-AddressBookModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +298,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -366,10 +406,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AddressBookModule_Example/Pods-AddressBookModule_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AddressBookModule/AddressBookModule.framework",
+				"${BUILT_PRODUCTS_DIR}/MGJRouter/MGJRouter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AddressBookModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGJRouter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,8 +425,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3019C8A82BB40853003144EA /* AddressBookModule.m in Sources */,
+				3019C8A52BB40839003144EA /* AddressBookViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LXViewController.m in Sources */,
+				3019C8AB2BB40883003144EA /* AddressDetailViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

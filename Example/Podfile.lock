@@ -1,0 +1,38 @@
+PODS:
+  - AddressBookModule (0.1.0):
+    - MGJRouter
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MGJRouter (1.0.0)
+
+DEPENDENCIES:
+  - AddressBookModule (from `../`)
+  - FBSnapshotTestCase
+  - MGJRouter (from `https://github.com/Aliffter/MGJRouter.git`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  AddressBookModule:
+    :path: "../"
+  MGJRouter:
+    :git: https://github.com/Aliffter/MGJRouter.git
+
+CHECKOUT OPTIONS:
+  MGJRouter:
+    :commit: e39c360b1e5bdd4f96e961d8c4b7a09e3b6e1c15
+    :git: https://github.com/Aliffter/MGJRouter.git
+
+SPEC CHECKSUMS:
+  AddressBookModule: 66ee81da0e955219b257305b8df52a4ca946a5c7
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MGJRouter: 85cacc347c66d38c20fba11c1710e73c3aefb604
+
+PODFILE CHECKSUM: bca62f4bdb4cb9f6f7520e433005a43165dd1865
+
+COCOAPODS: 1.14.3

@@ -16,6 +16,8 @@
 // 在load方法中自动注册，在主工程中不用写任何代码。
 + (void)load {
     [MGJRouter registerURLPattern:@"ABM://AddressBook/MainVC" toHandler:^(NSDictionary *routerParameters) {
+        NSLog(@"routerParam:%@",routerParameters);
+
         UINavigationController *navigationVC = routerParameters[MGJRouterParameterUserInfo][@"navigationVC"];
 
         AddressBookViewController *mainVC = [[AddressBookViewController alloc] init];
@@ -23,8 +25,9 @@
 
         [navigationVC pushViewController:mainVC animated:YES];
     }];
-    
-    [MGJRouter registerURLPattern:@"ABM://AddressBook/DetailVC" toHandler:^(NSDictionary *routerParameters) {
+    //@"ABM://AddressBook/DetailVC/:bookID/:sku"
+    [MGJRouter registerURLPattern:@"ABM://AddressBook/DetailVC/:bookID" toHandler:^(NSDictionary *routerParameters) {
+        NSLog(@"routerParam:%@",routerParameters);
         UINavigationController *navigationVC = routerParameters[MGJRouterParameterUserInfo][@"navigationVC"];
         NSString *person = routerParameters[MGJRouterParameterUserInfo][@"personKey"];
 

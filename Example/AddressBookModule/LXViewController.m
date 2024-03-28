@@ -34,7 +34,7 @@
 
 }
 - (IBAction)showDetail:(UIButton *)sender {
-    [MGJRouter openURL:@"ABM://AddressBook/DetailVC"
+    [MGJRouter openURL:@"ABM://AddressBook/DetailVC/9999?author=leo"
           withUserInfo:@{@"navigationVC" : self.navigationController,
                          @"personKey" : @"Uzi"
                        }
